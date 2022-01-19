@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Jhonny Barber </title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+	integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+	crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" 
+	rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+	referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+	<header id="home">
+		<nav class="navbar">
+			<div class="navbar-header">
+				<img src="assets/logo (1).png" alt="Jhonny" class="navbar-header__logo">
+				<button type = "button" class="navbar-header__toggle">
+					<i class="fas fa-bars"></i>
+				</button>
+			</div> <!-- navbar-header -->
+
+			<ul class="navbar-list">
+				<li>
+					<a href="#home" class="navbar-list__link">Home</a>
+				</li>
+				<li>
+					<a href="#sobre" class="navbar-list__link">Sobre Nós</a>
+				</li>
+				<li>
+					<a href="#diferenciais" class="navbar-list__link">Diferenciais</a>
+				</li>
+				<li>
+					<a href="#pacotes" class="navbar-list__link">Serviços</a>
+				</li>
+				<li>
+					<a href="#galeria" class="navbar-list__link">Galeria</a>
+				</li>
+			</ul><!--navbar-list-->
+			
+			<ul class="navbar-icons">
+				<li>
+					<a href="https://www.twitter.com" target="_blank" class="navbar-icons__icon">
+						<i class="fab fa-twitter"></i>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.facebook.com" target="_blank" class="navbar-icons__icon">
+						<i class="fab fa-facebook"></i>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.instagram.com" target="_blank" class="navbar-icons__icon">
+						<i class="fab fa-instagram"></i>
+					</a>
+				</li> <!--Social-->
+			</ul>
+		</nav> <!-- navbar -->
+
+		<div class="hero">
+			<video src="assets/barberVideo.mp4" autoplay muted loop class="hero__video"></video>
+			<div class="hero-text">
+				<h1 class="hero-text__title">
+					A MELHOR <span class="hero-text_title--line2"> Barbearia</span><br> de ribeirão preto!
+				</h1>
+				<p class="hero-text__descricao">Bem-Vindo a Don Jhonny!</p>
+				<a href="#" class="hero-text__cta">Conheça</a>	
+			</div><!--hero-text-->
+		</div>
+	</header> <!-- home -->
+
+	<section id="sobre" class="sobre">
+		<h2 class="section__title">Sobre <span class="section__title--destaque">Nós</span></h2>
+		<div class="sobre-content">
+			<img src="assets/barberSobre.jpg" alt="sobre nós" class="sobre-c_img">
+			<div class="sobre-texto">
+				<h3 class="sobre-texto__titulo">Um novo conceito de Barbearia</h3>
+				<p>Mussum Ipsum, cacilds vidis litro abertis. Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu
+					levo! A
+					ordem dos tratores não altera o pão duris. Delegadis gente finis, bibendum egestas augue arcu ut est. Praesent
+					malesuada
+					urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus.</p>
+					<br>
+					<p>Si num tem leite então bota uma pinga aí cumpadi! Diuretics paradis num copo é motivis de denguis. Interagi no
+						mé,
+						cursus quis, vehicula ac nisi. Tá deprimidis, eu conheço uma cachacis que pode alegrar sua vidis.</p>
+				</div>
+		</div><!--Sobre-->
+		
+	</section><!--sobre-->
+
+	<section id="diferenciais">
+		<h2 class="section__title">Nossos <span class="section__title--destaque">Diferenciais</span></h2>
+			<div class="diferenciais">
+				<article class="diferencial">
+					<h3 class="diferencial__titulo diferencial__titulo--carteira">Melhor Preço</h3>
+					<p class="diferencial__descricao">Mussum Ipsum, cacilds vidis litro abertis. Todo mundo vê os porris que eu
+						tomo, mas ninguém vê os tombis que eu levo!</p>
+				</article><!--Diferencial-->
+
+				<article class="diferencial">
+					<h3 class="diferencial__titulo diferencial__titulo--tesoura">equipe experiente</h3>
+					<p class="diferencial__descricao">Mussum Ipsum, cacilds vidis litro abertis. Todo mundo vê os porris que eu
+						tomo,
+						mas ninguém vê os tombis que eu levo!</p>
+				</article><!--Diferencial-->
+				
+				<article class="diferencial">
+					<h3 class="diferencial__titulo diferencial__titulo--sofa">Conforto, sempre</h3>
+					<p class="diferencial__descricao">Mussum Ipsum, cacilds vidis litro abertis. Todo mundo vê os porris que eu
+						tomo,
+						mas ninguém vê os tombis que eu levo!</p>
+				</article> <!--Diferencial-->
+				
+			</div><!--Diferenciais-->
+	</section><!--Diferenciais-->
+
+	<section id="pacotes">
+		<h2 class="section__title">Nossos<span class="section__title--destaque"> Serviços</span></h2>
+
+		<div class="pacotes">
+			<article class="pacote">
+				<img src="assets/cabelo.jpg" alt="Corte simples" class= "pacote_thumb">
+				<div class="pacote__info">
+					<div class="info-header">
+						<h3 class="info-header__titulo">Corte simples</h3>
+						<p>40 min</p>
+					</div><!--info-header-->
+					<p class="info-body">Mussum Ipsum, cacilds vidis litro abertis. Todo mundo vê os porris que eu tomo, mas
+						ninguém vê os tombis que eu levo!</p>
+					<div class="info-footer">
+						
+						<p>A partir de R$30</p>
+					</div>
+				</div><!--pacote__info-->
+			</article>
+
+			<article class="pacote">
+				<img src="assets/cabelobarba.jpg" class="pacote__thumb" alt=" Barba">
+				<div class="pacote__info">
+					<div class="info-header">
+						<h3 class="info-header__titulo">Barba</h3>
+						<p>40 min</p>
+					</div>
+					<p class="info-body">Mussum Ipsum, cacilds vidis litro abertis. Todo mundo vê os porris que eu tomo, mas
+						ninguém vê os tombis que eu levo!</p>
+					<div class="info-footer">
+
+						<p>A partir de R$25</p>
+					</div>
+				</div>
+			</article>
+			
+			<article class="pacote">
+				<img src="assets/barba.jpg" class="pacote__thumb" alt="Corte e Barba">
+				<div class="pacote__info">
+					<div class="info-header">
+						<h3 class="info-header__titulo">Corte + Barba</h3>
+					<p> 1 Hora</p>
+					</div>
+					<p class="info-body">Mussum Ipsum, cacilds vidis litro abertis. Todo mundo vê os porris que eu tomo, mas
+						ninguém vê os tombis que eu levo!</p>
+					<div class="info-footer">
+			
+						<p>A partir de R$50</p>
+					</div>
+				</div>
+			</article>
+			
+			<article class="pacote">
+				<img src="assets/progressiva.jpg" class="pacote__thumb" alt="Progressiva">
+				<div class="pacote__info">
+					<div class="info-header">
+						<h3 class="info-header__titulo">Progressiva</h3>
+						<p>1 Hora e 40 min</p>
+					</div>
+					<p class="info-body">Mussum Ipsum, cacilds vidis litro abertis. Todo mundo vê os porris que eu tomo, mas
+						ninguém vê os tombis que eu levo!</p>
+					<div class="info-footer">
+					
+						<p>A partir de $120</p>
+					</div>
+				</div>
+			</article>
+		</div> <!--pacotes-->
+	</section><!--pacotes-->
+
+	<section>
+		<div class="newsletter-c">
+			<div class="newsletter-info">
+				<h2 class="newsletter-info__titulo">
+					Quer Receber Promoções e Ofertas Exclusivas
+				</h2>
+				<p class="newsletter-info__subtitulo">Cadastre-se para receber nossas newsletter</p>
+			</div>
+			<form action="#" class="newsletter-form">
+				<input type="email" placeholder="Seu e-mail" class="newsletter-form__input">
+				<button type="submit" class="newsletter-form__submit">ASSINAR</button>
+			</form>
+		</div>
+	</section><!--newsletter-->
+
+	<section id = "galeria" class="galeria">
+		<article class="galeria-item">
+			<img src="assets/photo_0.png" alt="Conceição" class="galeria-item__thumb">
+			<h4 class="galeria-item__local"></h4>
+		</article>
+
+		<article class="galeria-item">
+			<img src="assets/photo_1.png" alt="Imagem de Diamantina" class="galeria-item__thumb">
+			<h4 class="galeria-item__local"></h4>
+		</article>
+		
+		<article class="galeria-item">
+			<img src="assets/photo_2.png" alt="Imagem de Tiradentes" class="galeria-item__thumb">
+			<h4 class="galeria-item__local"></h4>
+		</article>
+		
+		<article class="galeria-item">
+			<img src="assets/photo_3.png" alt="Imagem de São Lourenço" class="galeria-item__thumb">
+			<h4 class="galeria-item__local"></h4>
+		</article>
+		
+		<article class="galeria-item">
+			<img src="assets/photo_4.png" alt="Imagem do Serro" class="galeria-item__thumb">
+			<h4 class="galeria-item__local"></h4>
+		</article>
+		
+		<article class="galeria-item">
+			<img src="assets/photo_5.png" alt="Imagem de São Tomé das Letras" class="galeria-item__thumb">
+			<h4 class="galeria-item__local"></h4>
+		</article>
+		
+		<article class="galeria-item">
+			<img src="assets/photo_6.png" alt="Imagem de Ipoema" class="galeria-item__thumb">
+			<h4 class="galeria-item__local"></h4>
+		</article>
+		
+		<article class="galeria-item">
+			<img src="assets/photo_7.png" alt="Imagem de Ouro" class="galeria-item__thumb">
+			<h4 class="galeria-item__local"></h4>
+		</article>
+	</section> <!--galeria-->
+
+	<footer class="footer">
+		<ul class="footer-list">
+			<li>
+				<a href="#home" class="footer-list__link">Home</a>
+			</li>
+			<li class="footer-list__item">
+				<a href="#sobre" class="footer-list__link">Sobre</a>
+			</li>
+			<li class="footer-list__item">
+				<a href="#diferenciais" class="footer-list__link">diferenciais</a>
+			</li>
+			<li class="footer-list__item">
+				<a href="#pacotes" class="footer-list__link">pacotes</a>
+			</li>
+			<li class="footer-list__item">
+				<a href="#galeria" class="footer-list__link">galeria</a>
+			</li>
+		</ul><!--footer-list-->
+
+		<ul class="footer-icons">
+			<li>
+				<a href="https://www.twitter.com" target="_blank" class="footer-icons__icon">
+					<i class="fab fa-twitter"></i>
+				</a>
+			</li>
+			<li>
+				<a href="https://www.facebook.com" target="_blank" class="footer-icons__icon">
+					<i class="fab fa-facebook"></i>
+				</a>
+			</li>
+			<li>
+				<a href="https://www.instagram.com" target="_blank" class="footer-icons__icon">
+					<i class="fab fa-instagram"></i>
+				</a>
+			</li>
+		</ul>
+
+		<p class="copyright">Copyright &copy; Matthews Britto <span class="date"></span>Todos os direitos reservados</p>
+	</footer>
+
+	<div class="modal">
+		<div class="modal__close"><i class="fas fa-times"></i></div>
+
+		<div class="modal__content">
+			<div class="slider">
+				<div class="slider-image">
+					<div class="slider-image__number">1/6</div>
+						<img src="assets/photo_0.png" class="slider-image__img">
+				</div><!--slider-image-->
+				<div class="slider-buttons">
+					<div class="slider-buttons__btn-prev">
+						<i class="fas fa-chevron-left"></i>
+					</div>
+					<div class="slider-buttons__btn-next">
+						<i class="fas fa-chevron-right"></i>
+					</div>
+				</div><!--slider-buttons-->
+			</div><!--slider-->
+			<p class="slider-image-description">Teste 123</p>
+			<div class="slider-thumbs">
+				<div class="slider-thumbs__img">
+					<img src="assets/photo_0.png" alt="Conceição do Mato Grosso">
+				</div>
+				<div class="slider-thumbs__img">
+					<img src="assets/photo_1.png" alt="Imagem de Diamantina">
+				</div>
+				<div class="slider-thumbs__img">
+					<img src="assets/photo_2.png" alt="Imagem de Tiradentes">
+				</div>
+				<div class="slider-thumbs__img">
+					<img src="assets/photo_3.png" alt="Imagem de São Lourenço">
+				</div>
+				<div class="slider-thumbs__img">
+					<img src="assets/photo_4.png" alt="Imagem do Serro">
+				</div>
+				<div class="slider-thumbs__img">
+					<img src="assets/photo_5.png" alt="Imagem de São Tomé das Letras">
+				</div>
+				<div class="slider-thumbs__img">
+					<img src="assets/photo_6.png" alt="Imagem de Ipoema">
+				</div>
+				<div class="slider-thumbs__img">
+					<img src="assets/photo_7.png" alt="Imagem de Ouro">
+				</div>
+			</div>
+		</div><!--modal-content-->
+	</div> <!--modal-->
+	<script src="js/scripts.js"></script>
+</body>
+</html>
