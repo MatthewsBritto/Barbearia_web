@@ -1,35 +1,35 @@
-const _gallery = [
+const _gallery =[
 	{
-		img: "assets/barba.jpg",
-		description: "Conceição do Mato Dentro"
+		img: "barbertest.jpg",
+		description: "Venha ficar elegante!"
 	},
 	{
-		img: "assets/photo_1.png",
-		description: "Diamantina"
+		img: "barber2.jpg",
+		description: "Venha ficar elegante!"
 	},
 	{
-		img: "assets/photo_2.png",
-		description: "Tiradentes"
+		img: "barber3.jpg",
+		description: "Venha ficar elegante!"
 	},
 	{
-		img: "assets/photo_3.png",
-		description: "São Lourenço"
+		img: "barbertest.jpg",
+		description: "Venha ficar elegante!"
 	},
 	{
-		img: "assets/photo_4.png",
-		description: "Serro"
+		img: "barber2.jpg",
+		description: "Venha ficar elegante!"
 	},
 	{
-		img: "assets/photo_5.png",
-		description: "São Tomé das Letras"
+		img: "barber3.jpg",
+		description: "Venha ficar elegante!"
 	},
 	{
-		img: "assets/photo_6.png",
-		description: "Ipoema"
+		img: "barber2.jpg",
+		description: "Venha ficar elegante!"
 	},
 	{
-		img: "assets/photo_7.png",
-		description: "Ouro Preto"
+		img: "barbertest.jpg",
+		description: "Venha ficar elegante!"
 	}
 ]
 
