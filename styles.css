@@ -372,7 +372,7 @@ img {
 	position: relative;
 }
 .pacotes::after{
-	content: "🠖";
+	content: "→";
 	position: absolute;
 	font-size: 3.6rem;
 	font-weight: 900;
