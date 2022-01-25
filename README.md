@@ -15,6 +15,8 @@
 
 >> #### Nesse projeto implementei o conceito de Mobile first, tive muito aprendizado em relação as medias queries e principalmente treinei muito como manipular elementos flex;
 
+![mobile](https://user-images.githubusercontent.com/84083804/150992501-2bb02660-b14b-43dc-8d16-258defb1ea82.png)
+
 >> #### Metodologia BEM , incrivel como uma metodologia tão simples do CSS , modifica de forma fácil um elemento por sua classe, ajudando a deixar a pagina dinâmica;  
 
 >> #### DOM ! Conceito diversas vezes estudado, porém, esse projeto foi mais uma forma de colocar estudo em prática e assim aprendendo mais!   
