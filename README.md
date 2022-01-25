@@ -8,7 +8,7 @@
 
 >> ### Percebi também que parte das poucas empresas que adquiriram alguma página , tem layouts construidos de forma bem simples, e me perguntei :"consigo fazer algo melhor? então o que estou esperando?".
 
->> ### 💰 Pensando nisso, decedi tentar produzir uma página estática que se destacasse entre o sistema de pesquisas e que , por mais simples, fosse bonito, funcional e que traga credibilidade ao produto/serviço do meu cliente. 
+>> ### 💰 Pensando nisso, decidi tentar produzir uma página estática que se destacasse entre o sistema de pesquisas e que , por mais simples, fosse bonito, funcional e que traga credibilidade ao produto/serviço do meu cliente. 
 
 
 <h3>APRENDIZADO</h3>
